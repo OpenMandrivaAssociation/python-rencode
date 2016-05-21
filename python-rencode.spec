@@ -6,6 +6,7 @@ License:        GPLv3+ and BSD
 URL:            https://github.com/aresch/rencode
 Source0:        https://github.com/aresch/rencode/archive/rencode-%{version}.tar.gz
 BuildRequires:  python-devel
+BuildRequires:	python-cython
 
 %description
 The rencode module is a modified version of bencode from the
