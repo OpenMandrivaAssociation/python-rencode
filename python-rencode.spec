@@ -1,6 +1,6 @@
 Name:           python-rencode
 Version:        1.0.4
-Release:        1
+Release:        2
 Summary:        Web safe object pickling/unpickling
 License:        GPLv3+ and BSD
 URL:            https://github.com/aresch/rencode
