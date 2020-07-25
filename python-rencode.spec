@@ -1,3 +1,5 @@
+%define debug_package %{nil}
+
 Name:           python-rencode
 Version:        1.0.6
 Release:        2
