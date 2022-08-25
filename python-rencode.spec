@@ -9,6 +9,8 @@ URL:            https://github.com/aresch/rencode
 Source0:	https://github.com/aresch/rencode/archive/v%{version}.tar.gz
 BuildRequires:  python-devel
 BuildRequires:	python-cython
+BuildRequires:  python-pip
+BuildRequires:  python-wheel
 
 %description
 The rencode module is a modified version of bencode from the
