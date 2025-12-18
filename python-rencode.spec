@@ -22,6 +22,6 @@ b-encodings.
 
 %files
 %{python_sitearch}/rencode
-%{python_sitearch}/rencode*.egg-info
+%{python_sitearch}/rencode*.dist-info
 %doc COPYING README.md
 
