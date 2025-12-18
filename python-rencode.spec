@@ -11,23 +11,13 @@ BuildRequires:  python-devel
 BuildRequires:	python-cython
 BuildRequires:  python-pip
 BuildRequires:  python-wheel
+BuildSystem:    python
 
 %description
 The rencode module is a modified version of bencode from the
 BitTorrent project.  For complex, heterogeneous data structures with
 many small elements, r-encodings take up significantly less space than
 b-encodings.
-
-
-%prep
-%setup -n rencode-%{version}
-
-
-%build
-%__python setup.py build
-
-%install
-%__python setup.py install --skip-build --root %{buildroot}
 
 %files
 %{python_sitearch}/rencode
