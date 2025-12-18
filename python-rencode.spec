@@ -6,7 +6,7 @@ Release:        1
 Summary:        Web safe object pickling/unpickling
 License:        GPLv3+ and BSD
 URL:            https://github.com/aresch/rencode
-Source0:	https://github.com/aresch/rencode/archive/v%{version}.tar.gz
+Source0:	https://github.com/aresch/rencode/archive/v%{version}/rencode-%{version}.tar.gz
 BuildRequires:  python-devel
 BuildRequires:	python-cython
 BuildRequires:  python-pip
