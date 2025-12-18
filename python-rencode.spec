@@ -11,6 +11,7 @@ BuildRequires:  python-devel
 BuildRequires:	python-cython
 BuildRequires:  python-pip
 BuildRequires:  python-wheel
+BuildRequires:  python-poetry-core
 BuildSystem:    python
 
 %description
