@@ -1,8 +1,8 @@
 %define debug_package %{nil}
 
 Name:           python-rencode
-Version:        1.0.6
-Release:        5
+Version:        1.0.8
+Release:        1
 Summary:        Web safe object pickling/unpickling
 License:        GPLv3+ and BSD
 URL:            https://github.com/aresch/rencode
